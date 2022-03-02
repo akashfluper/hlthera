@@ -1,0 +1,186 @@
+
+.total-heading-count{
+    color: #1E3F6C;
+    font-size: 25px;
+    padding: 0;
+    /* margin-bottom: 0; */
+}
+.progress{
+    height: 7px;
+    border-radius: 5px;
+    width: 125px;
+   
+    
+}
+
+.heading{
+    font-size: 15px;
+    color: #1E3F6C;
+}
+
+
+.total-ongoing-appointment-count{
+    font-size: small;
+}
+.progress-bar{
+    background-color: #1E3F6C;
+}
+.total-ongoing-appointment-heading{
+    color: #1E3F6C;
+    font-size: 12px;
+    margin-bottom: 2px;
+}
+.total-ongoing-appointment-count{
+    color: #2B78C8;
+    margin-bottom: 7px;
+}
+.daily-revenue-text{
+    font-size: 12px;
+    /* margin: 0; */
+}
+
+.rigth-side-bar{
+    font-size: 13px;
+}
+.export-down-arrow{
+    width: 11px;
+    margin-left: 13px;
+}
+.text{
+    font-size: 12px;
+    /* margin-bottom: 0; */
+}
+.btn{
+    border-radius: 25px;
+    background-color: #1E3F6C;
+    color: #ffffff; 
+    font-size: 12px; 
+    padding: 5px 20px;
+}
+.star-color{
+    color: #FF9900;
+    font-size: 12px;
+
+}
+.review{
+    font-size: 12px;
+    margin-left: 10px;
+}
+
+.number-of-profile-viewers-hr{
+    width: 90%;
+}
+.icon-img{
+    position: relative;
+}
+.circle-color-inactive{
+    position: absolute;
+    color: red;
+    font-size: 7px;
+    top: 50px;
+    left: 28px;
+
+}
+.circle-color-active{
+    position: absolute;
+    color: green;
+    font-size: 7px;
+    top: 50px;
+    left: 28px;
+}
+.circle-color-online{
+    display: flex;
+    color: green;
+    font-size: 7px;
+    margin-right: 10px;
+}
+.circle-color-offline{
+    display: flex;
+    color: red;
+    font-size: 7px;
+    margin-right: 10px;
+}
+.circle-color-meeting{
+    display: flex;
+    color: skyblue;
+    font-size: 7px;
+    margin-right: 10px;
+}
+
+.bottom-carsoule-img{
+    width: 61px !important;
+    height: 60px !important;
+}
+.bottom-carsoule-img-container{
+    position: relative;
+    background-image: url("/assets/images/dentist.png");
+    width: 61px;
+    height: 60px;
+}
+
+.bottom-carsoule-img-container2{
+    position: relative;
+    background-image: url("/assets/images/cancer.png");
+    width: 61px;
+    height: 60px;
+}
+
+.bottom-carsoule-img-container3{
+    position: relative;
+    background-image: url("/assets/images/diabetes.png");
+    width: 61px;
+    height: 60px;
+}
+
+.bottom-carsoule-img-container4{
+    position: relative;
+    background-image: url("/assets/images/eye_specialist.png");
+    width: 61px;
+    height: 60px;
+}
+
+.bottom-carsoule-img-container5{
+    position: relative;
+    background-image: url("/assets/images/kidney.png");
+    width: 61px;
+    height: 60px;
+}
+
+.bottom-carsoule-img-container6{
+    position: relative;
+    background-image: url("/assets/images/lungs.png");
+    width: 61px;
+    height: 60px;
+}
+
+
+.close-icon{
+ position: absolute;
+width: 15px !important;
+height: 15px !important;
+right: 1px;
+}
+
+
+.review{
+    padding: 0 ;
+}
+.profile-viewers{
+    height: 480px;
+    overflow-y: scroll;
+}
+.profile-viewers::-webkit-scrollbar {
+    display: none;
+  }
+
+.float-child {
+    width: 50%;
+    float: left;
+    padding: 20px;
+    border: 2px solid red;
+} 
+
+.rate{
+    box-shadow: 0px 0px 10px  #2C28281C;
+    border-radius: 10px;
+}

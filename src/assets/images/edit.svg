@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="34.494" height="34.494" viewBox="0 0 34.494 34.494">
+  <g id="edit" transform="translate(-0.245 -0.494)">
+    <g id="camera" transform="translate(0.245 0.494)">
+      <g id="Ellipse_1" data-name="Ellipse 1" transform="translate(0 0)" fill="#fff" stroke="#2b78c8" stroke-width="2">
+        <circle cx="17.247" cy="17.247" r="17.247" stroke="none"/>
+        <circle cx="17.247" cy="17.247" r="16.247" fill="none"/>
+      </g>
+    </g>
+    <g id="_747994" data-name="747994" transform="translate(9.486 8.735)">
+      <g id="Group_59392" data-name="Group 59392" transform="translate(0)">
+        <path id="Path_105259" data-name="Path 105259" d="M15.312.953a3.254,3.254,0,0,0-4.6,0L1.615,10.048a.635.635,0,0,0-.163.279L.024,15.459a.635.635,0,0,0,.786.782l5.132-1.458a.635.635,0,0,0,.276-1.06L2.982,10.478l7.539-7.539,2.8,2.8L7.554,11.5a.635.635,0,0,0,.9.9l6.861-6.842a3.254,3.254,0,0,0,0-4.6ZM4.556,13.856l-3,.853.841-3.023Zm9.859-9.2-.189.189-2.8-2.8.189-.189a1.984,1.984,0,0,1,2.806,2.8Z" transform="translate(0 0)" fill="#2b78c8"/>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+  <g id="video_sm" transform="translate(-1430 -353)">
+    <g id="Group_58520" data-name="Group 58520" transform="translate(1430 353)">
+      <circle id="Ellipse_1155" data-name="Ellipse 1155" cx="15" cy="15" r="15" transform="translate(0 0)" fill="#f2f1f6"/>
+    </g>
+    <g id="video-camera" transform="translate(1436 265.488)">
+      <g id="Group_58524" data-name="Group 58524" transform="translate(0 96.512)">
+        <g id="Group_58523" data-name="Group 58523">
+          <path id="Path_104995" data-name="Path 104995" d="M10.75,96.512H2.079A2.086,2.086,0,0,0,0,98.591V105.6a2.086,2.086,0,0,0,2.079,2.079H10.75A2.086,2.086,0,0,0,12.83,105.6V98.591A2.072,2.072,0,0,0,10.75,96.512Z" transform="translate(0 -96.512)" fill="#2b78c8"/>
+        </g>
+      </g>
+      <g id="Group_58526" data-name="Group 58526" transform="translate(13.499 97.622)">
+        <g id="Group_58525" data-name="Group 58525" transform="translate(0 0)">
+          <path id="Path_104996" data-name="Path 104996" d="M344.96,123.881a1,1,0,0,0-.34.146L341.5,125.9v4.824l3.136,1.871a1.163,1.163,0,0,0,1.638-.457,1.31,1.31,0,0,0,.16-.624v-6.425A1.215,1.215,0,0,0,344.96,123.881Z" transform="translate(-341.504 -123.847)" fill="#2b78c8"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

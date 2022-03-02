@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="62" height="62" viewBox="0 0 62 62">
+  <g id="total_chat" transform="translate(-768 -192)">
+    <circle id="_1" data-name="1" cx="31" cy="31" r="31" transform="translate(768 192)" fill="#f2f1f6"/>
+    <path id="comment" d="M20.936-1.332H3.338A3.341,3.341,0,0,0,0,2v10.77a3.34,3.34,0,0,0,3.325,3.337V21l7.023-4.887H20.936a3.341,3.341,0,0,0,3.337-3.337V2a3.341,3.341,0,0,0-3.337-3.337Zm-3.16,12.516H6.5V9.762H17.777Zm0-3.034H6.5V6.728H17.777Zm0-3.034H6.5V3.694H17.777Zm0,0" transform="translate(786.999 213.332)" fill="#2b78c8"/>
+  </g>
+</svg>

@@ -1,0 +1,30 @@
+*{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+
+.navbar{
+    width: 250px;
+    height: 100vh;
+    position: fixed;   
+    overflow-y: scroll; 
+   ;
+}
+.navbar::-webkit-scrollbar {
+    display: none;
+}
+.nav-item:hover{
+    background-color: #FFFFFF;
+    color: #1E3F6C;
+    border-radius: 5px;
+}
+
+.nav-link{
+    font-size: 12px;
+    border-radius: 5px;
+}
+
+
+
+

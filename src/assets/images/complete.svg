@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="62" height="62" viewBox="0 0 62 62">
+  <g id="complete" transform="translate(-768 -192)">
+    <g id="Group_59609" data-name="Group 59609">
+      <circle id="_1" data-name="1" cx="31" cy="31" r="31" transform="translate(768 192)" fill="#f2f1f6"/>
+      <g id="download" transform="translate(780 204)">
+        <g id="Group_59606" data-name="Group 59606" transform="translate(6 6)">
+          <path id="Path_105343" data-name="Path 105343" d="M29.952,8.017H28.187V7.008a1.008,1.008,0,1,0-2.017,0V8.017H12.051V7.008a1.008,1.008,0,0,0-2.017,0V8.017H8.269A2.272,2.272,0,0,0,6,10.286v2.773H32.221V10.286A2.272,2.272,0,0,0,29.952,8.017Z" transform="translate(-6 -6)" fill="#2b78c8"/>
+          <path id="Subtraction_39" data-name="Subtraction 39" d="M6442.952-307.856h-21.683a2.271,2.271,0,0,1-2.27-2.268V-325h26.222v14.876A2.271,2.271,0,0,1,6442.952-307.856Zm-15.2-9.177a.848.848,0,0,0-.6.25.845.845,0,0,0-.25.6.85.85,0,0,0,.25.6l2.546,2.548a.861.861,0,0,0,.6.246h.006a.854.854,0,0,0,.612-.29l5.942-6.792a.846.846,0,0,0-.1-1.169.845.845,0,0,0-.56-.212.845.845,0,0,0-.613.26l-5.281,6.114-1.944-1.91A.846.846,0,0,0,6427.754-317.033Z" transform="translate(-6419 334)" fill="#2b78c8"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

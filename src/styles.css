@@ -1,0 +1,65 @@
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+
+.mat-select-arrow {
+
+    border-top: 5px solid;
+    margin: 0px 10px !important;
+}
+/* .mat-form-field-appearance-legacy .mat-form-field-prefix .mat-datepicker-toggle-default-icon, .mat-form-field-appearance-legacy .mat-form-field-suffix .mat-datepicker-toggle-default-icon {
+    right: 220px;
+    top: 5px;
+    width: 1em;
+    position: absolute;
+    
+} */
+/* .mat-form-field-infix{
+    position: relative !important;
+}
+.mat-form-field-prefix .mat-icon-button, .mat-form-field-suffix .mat-icon-button {
+    height: 1.5em;
+    width: 1.5em;
+    position: absolute;
+    left: -241px;
+    top: -16px;
+}*/
+.mat-form-field-infix {    
+border-top: 0 solid transparent;
+width: 160px !important;
+} 
+
+
+.mat-form-field-flex{
+    position: relative !important;
+}
+.mat-form-field-suffix{
+    position: absolute !important;
+    height: 1.5em;
+    width: 1.5em;
+    left: 10px;
+    top: 8px;
+}
+
+.mat-form-field-appearance-legacy .mat-form-field-infix{
+    padding: 12px !important;
+  }
+ 
+  
+  .mat-form-field-label{
+    padding: 6px !important;
+  }
+  .date{
+    font-size: 17px !important;
+    padding: 9px 0 !important;
+}
+.mat-form-field-wrapper{
+    padding-bottom:0 !important ;
+}
+.modal-dialog {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) !important;
+  }

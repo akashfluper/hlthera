@@ -1,0 +1,807 @@
+<div class="wrapper">
+    <app-left-sidebar></app-left-sidebar>
+    <div class="layout-content">
+        <app-dashboard-header></app-dashboard-header>
+
+        <div class="card">
+            <div class="container">
+                <!-- Manage Availability Starts -->
+            <div class="row">
+                <div class="d-flex">
+                    <div class="line"></div>
+                    <h5>Manage Availability</h5>
+                </div>
+                <div class="col-9">
+                    <div class="row">
+                        <!-- Rounded switch starts -->
+                            <div class="col-4 d-flex align-items-center">
+                                <p class="mb-0 me-3 date">I'm Available</p>
+                                <label class="switch">
+                                    <input type="checkbox">
+                                    <span class="slider round"></span>
+                                </label>
+                            </div>
+                        <!-- Rounded switch ends -->
+
+
+                        <!-- datepicker starts -->
+                        <div class="col-4 d-flex">
+                            <mat-label class=" date me-4"> from</mat-label>
+                            <mat-form-field floatLabel="never" class="services">
+                                <mat-label>Choose a date</mat-label>
+                                <input matInput [matDatepicker]="picker">
+                                <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+                                <mat-datepicker #picker></mat-datepicker>
+                            </mat-form-field>
+                        </div>
+                        <div class="col-4 d-flex">
+                            <mat-label class=" date me-4"> to</mat-label>
+                            <mat-form-field floatLabel="never" class="services">
+                                <mat-label >Choose a date</mat-label>
+                                <input matInput [matDatepicker]="picker">
+                                <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+                                <mat-datepicker #picker></mat-datepicker>
+                            </mat-form-field>
+                        </div>
+                        <!-- datepicker starts -->
+                    </div>
+                </div>
+            </div>
+            <!-- services starts -->
+            <div class="row mt-3">
+                <div class="col-10">
+                    <div class="row">
+                        <div class="col-6">
+                            <mat-form-field floatLabel="never" class="services mb-3">
+                                <mat-label >Services</mat-label>
+                                <mat-select>
+                                    <mat-option *ngFor="let service of services" [value]="service.value">
+                                        {{service.viewValue}}
+                                    </mat-option>
+                                </mat-select>
+                            </mat-form-field>
+
+                            <mat-form-field floatLabel="never" class="services">
+                                <mat-label>Services</mat-label>
+                                <mat-select>
+                                    <mat-option *ngFor="let service of services" [value]="service.value">
+                                        {{service.viewValue}}
+                                    </mat-option>
+                                </mat-select>
+                            </mat-form-field>
+                        </div>
+
+                        <div class="col-6 d-flex align-self-center justify-content-center" >
+                            <h3 class="mb-0">Choose service for which you want to set Slots</h3>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <!-- services ends -->
+
+            <!-- choose date starts  -->
+            <div class="row mt-3">
+                <div class="d-flex">
+                    <img src="assets/images/calendar_choose.png" alt="" style="height: fit-content; margin-right: 10px;">
+                    <h4 style="font-weight: bold; color: #253B80;">Choose a date</h4>
+
+                </div>
+                <owl-carousel-o [options]="customOptions">
+                    <ng-template carouselSlide>
+                        <input type="radio" name="date" id="1">
+                    <label for="1" class="choosedate-bg border">
+                        <span class="text-center">
+                            <h4 class="choosedate-text">mon</h4>
+                            <h4 class="choosedate-text choosedate-text-line-hight">20</h4>
+                        </span>
+                    </label>       
+                    </ng-template>
+
+                    <ng-template carouselSlide>
+                        <input type="radio" name="date" id="2">
+                    <label for="2" class="choosedate-bg border">
+                        <span class="text-center">
+                            <h4 class="choosedate-text">tue</h4>
+                            <h4 class="choosedate-text choosedate-text-line-hight">21</h4>
+                        </span>
+                    </label>       
+                    </ng-template>
+
+                    <ng-template carouselSlide>
+                        <input type="radio" name="date" id="3">
+                    <label for="3" class="choosedate-bg border">
+                        <span class="text-center">
+                            <h4 class="choosedate-text">wed</h4>
+                            <h4 class="choosedate-text choosedate-text-line-hight">22</h4>
+                        </span>
+                    </label>       
+                    </ng-template>
+
+                    <ng-template carouselSlide>
+                        <input type="radio" name="date" id="4">
+                    <label for="4" class="choosedate-bg border">
+                        <span class="text-center">
+                            <h4 class="choosedate-text">thu</h4>
+                            <h4 class="choosedate-text choosedate-text-line-hight">23</h4>
+                        </span>
+                    </label>       
+                    </ng-template>
+
+                    <ng-template carouselSlide>
+                        <input type="radio" name="date" id="5">
+                    <label for="5" class="choosedate-bg border">
+                        <span class="text-center">
+                            <h4 class="choosedate-text">fri</h4>
+                            <h4 class="choosedate-text choosedate-text-line-hight">24</h4>
+                        </span>
+                    </label>       
+                    </ng-template>
+
+                    <ng-template carouselSlide>
+                        <input type="radio" name="date" id="6">
+                    <label for="6" class="choosedate-bg border">
+                        <span class="text-center">
+                            <h4 class="choosedate-text">sat</h4>
+                            <h4 class="choosedate-text choosedate-text-line-hight">25</h4>
+                        </span>
+                    </label>       
+                    </ng-template>
+
+                    <ng-template carouselSlide>
+                        <input type="radio" name="date" id="7">
+                    <label for="7" class="choosedate-bg border">
+                        <span class="text-center">
+                            <h4 class="choosedate-text">sun</h4>
+                            <h4 class="choosedate-text choosedate-text-line-hight">26</h4>
+                        </span>
+                    </label>       
+                    </ng-template>
+
+                    <ng-template carouselSlide>
+                        <input type="radio" name="date" id="8">
+                    <label for="8" class="choosedate-bg border">
+                        <span class="text-center">
+                            <h4 class="choosedate-text">mon</h4>
+                            <h4 class="choosedate-text choosedate-text-line-hight">27</h4>
+                        </span>
+                    </label>       
+                    </ng-template>
+
+                    <ng-template carouselSlide>
+                        <input type="radio" name="date" id="9">
+                    <label for="9" class="choosedate-bg border">
+                        <span class="text-center">
+                            <h4 class="choosedate-text">tue</h4>
+                            <h4 class="choosedate-text choosedate-text-line-hight">28</h4>
+                        </span>
+                    </label>       
+                    </ng-template>
+
+                    <ng-template carouselSlide>
+                        <input type="radio" name="date" id="10">
+                    <label for="10" class="choosedate-bg border">
+                        <span class="text-center">
+                            <h4 class="choosedate-text">wed</h4>
+                            <h4 class="choosedate-text choosedate-text-line-hight">29</h4>
+                        </span>
+                    </label>       
+                    </ng-template>
+
+                    <ng-template carouselSlide>
+                        <input type="radio" name="date" id="11">
+                    <label for="11" class="choosedate-bg border">
+                        <span class="text-center">
+                            <h4 class="choosedate-text">thu</h4>
+                            <h4 class="choosedate-text choosedate-text-line-hight">30</h4>
+                        </span>
+                    </label>       
+                    </ng-template>
+
+                    <ng-template carouselSlide>
+                        <input type="radio" name="date" id="12">
+                    <label for="12" class="choosedate-bg border">
+                        <span class="text-center">
+                            <h4 class="choosedate-text">fri</h4>
+                            <h4 class="choosedate-text choosedate-text-line-hight">31</h4>
+                        </span>
+                    </label>       
+                    </ng-template>
+
+                    <ng-template carouselSlide>
+                        <input type="radio" name="date" id="13">
+                    <label for="13" class="choosedate-bg border">
+                        <span class="text-center">
+                            <h4 class="choosedate-text">sat</h4>
+                            <h4 class="choosedate-text choosedate-text-line-hight">01</h4>
+                        </span>
+                    </label>       
+                    </ng-template>
+
+                    <ng-template carouselSlide>
+                        <input type="radio" name="date" id="14">
+                    <label for="14" class="choosedate-bg border">
+                        <span class="text-center">
+                            <h4 class="choosedate-text">sun</h4>
+                            <h4 class="choosedate-text choosedate-text-line-hight">02</h4>
+                        </span>
+                    </label>       
+                    </ng-template>
+
+                    <ng-template carouselSlide>
+                        <input type="radio" name="date" id="15">
+                    <label for="15" class="choosedate-bg border">
+                        <span class="text-center">
+                            <h4 class="choosedate-text">mon</h4>
+                            <h4 class="choosedate-text choosedate-text-line-hight">03</h4>
+                        </span>
+                    </label>       
+                    </ng-template>
+
+                    <ng-template carouselSlide>
+                        <input type="radio" name="date" id="16">
+                    <label for="16" class="choosedate-bg border">
+                        <span class="text-center">
+                            <h4 class="choosedate-text">tue</h4>
+                            <h4 class="choosedate-text choosedate-text-line-hight">04</h4>
+                        </span>
+                    </label>       
+                    </ng-template>
+
+                    <ng-template carouselSlide>
+                        <input type="radio" name="date" id="17">
+                    <label for="17" class="choosedate-bg border">
+                        <span class="text-center">
+                            <h4 class="choosedate-text">wed</h4>
+                            <h4 class="choosedate-text choosedate-text-line-hight">05</h4>
+                        </span>
+                    </label>       
+                    </ng-template>
+
+                    <ng-template carouselSlide>
+                        <input type="radio" name="date" id="18">
+                    <label for="18" class="choosedate-bg border">
+                        <span class="text-center">
+                            <h4 class="choosedate-text">thu</h4>
+                            <h4 class="choosedate-text choosedate-text-line-hight">06</h4>
+                        </span>
+                    </label>       
+                    </ng-template>
+
+                    <ng-template carouselSlide>
+                        <input type="radio" name="date" id="20">
+                    <label for="20" class="choosedate-bg border">
+                        <span class="text-center">
+                            <h4 class="choosedate-text">fri</h4>
+                            <h4 class="choosedate-text choosedate-text-line-hight">07</h4>
+                        </span>
+                    </label>       
+                    </ng-template>
+
+                    <ng-template carouselSlide>
+                        <input type="radio" name="date" id="21">
+                    <label for="21" class="choosedate-bg border">
+                        <span class="text-center">
+                            <h4 class="choosedate-text">sat</h4>
+                            <h4 class="choosedate-text choosedate-text-line-hight">08</h4>
+                        </span>
+                    </label>       
+                    </ng-template>
+
+                    <ng-template carouselSlide>
+                        <input type="radio" name="date" id="22">
+                    <label for="22" class="choosedate-bg border">
+                        <span class="text-center">
+                            <h4 class="choosedate-text">sun</h4>
+                            <h4 class="choosedate-text choosedate-text-line-hight">09</h4>
+                        </span>
+                    </label>       
+                    </ng-template>
+
+                    <ng-template carouselSlide>
+                        <input type="radio" name="date" id="23">
+                    <label for="23" class="choosedate-bg border">
+                        <span class="text-center">
+                            <h4 class="choosedate-text">mon</h4>
+                            <h4 class="choosedate-text choosedate-text-line-hight">10</h4>
+                        </span>
+                    </label>       
+                    </ng-template>
+
+                    <ng-template carouselSlide>
+                        <input type="radio" name="date" id="24">
+                    <label for="24" class="choosedate-bg border">
+                        <span class="text-center">
+                            <h4 class="choosedate-text">tue</h4>
+                            <h4 class="choosedate-text choosedate-text-line-hight">11</h4>
+                        </span>
+                    </label>       
+                    </ng-template>
+
+                    <ng-template carouselSlide>
+                        <input type="radio" name="date" id="25">
+                    <label for="25" class="choosedate-bg border">
+                        <span class="text-center">
+                            <h4 class="choosedate-text">wed</h4>
+                            <h4 class="choosedate-text choosedate-text-line-hight">12</h4>
+                        </span>
+                    </label>       
+                    </ng-template>
+
+                    <ng-template carouselSlide>
+                        <input type="radio" name="date" id="26">
+                    <label for="26" class="choosedate-bg border">
+                        <span class="text-center">
+                            <h4 class="choosedate-text">thu</h4>
+                            <h4 class="choosedate-text choosedate-text-line-hight">13</h4>
+                        </span>
+                    </label>       
+                    </ng-template>
+
+                    <ng-template carouselSlide>
+                        <input type="radio" name="date" id="26">
+                    <label for="26" class="choosedate-bg border">
+                        <span class="text-center">
+                            <h4 class="choosedate-text">fri</h4>
+                            <h4 class="choosedate-text choosedate-text-line-hight">14</h4>
+                        </span>
+                    </label>       
+                    </ng-template>
+
+                    <ng-template carouselSlide>
+                        <input type="radio" name="date" id="26">
+                    <label for="26" class="choosedate-bg border">
+                        <span class="text-center">
+                            <h4 class="choosedate-text">sat</h4>
+                            <h4 class="choosedate-text choosedate-text-line-hight">15</h4>
+                        </span>
+                    </label>       
+                    </ng-template>
+
+                    <ng-template carouselSlide>
+                        <input type="radio" name="date" id="27">
+                    <label for="27" class="choosedate-bg border">
+                        <span class="text-center">
+                            <h4 class="choosedate-text">sun</h4>
+                            <h4 class="choosedate-text choosedate-text-line-hight">16</h4>
+                        </span>
+                    </label>       
+                    </ng-template>
+
+                    <ng-template carouselSlide>
+                        <input type="radio" name="date" id="28">
+                    <label for="28" class="choosedate-bg border">
+                        <span class="text-center">
+                            <h4 class="choosedate-text">mon</h4>
+                            <h4 class="choosedate-text choosedate-text-line-hight">17</h4>
+                        </span>
+                    </label>       
+                    </ng-template>
+
+                    <ng-template carouselSlide>
+                        <input type="radio" name="date" id="29">
+                    <label for="29" class="choosedate-bg border">
+                        <span class="text-center">
+                            <h4 class="choosedate-text">tue</h4>
+                            <h4 class="choosedate-text choosedate-text-line-hight">18</h4>
+                        </span>
+                    </label>       
+                    </ng-template>
+
+                    <ng-template carouselSlide>
+                        <input type="radio" name="date" id="30">
+                    <label for="30" class="choosedate-bg border">
+                        <span class="text-center">
+                            <h4 class="choosedate-text">wed</h4>
+                            <h4 class="choosedate-text choosedate-text-line-hight">19</h4>
+                        </span>
+                    </label>       
+                    </ng-template>
+                </owl-carousel-o>
+
+            </div>
+            <!-- choose date ends  -->
+
+
+            <!-- Choose suitable time starts  -->
+            <div class="row mt-3">
+                <div class="col-6">
+                    <div class="row">
+                        
+                            <div class="morning "> 
+                                <div class="row">
+                                    <div class=" col-8 d-flex">
+                                        <img src="assets/images/morning.png" alt="" class="img-height  d-flex align-self-center me-2">
+                                        <h3 class="align-self-center mb-0 me-2"> morning</h3>
+                                        <button class=" btn btng   me-2" style="border-radius: 16px;">slots</button>
+                                        <button  class="btnb" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                                            Add
+                                        </button>
+                                    </div>
+                                    
+                                    <div class="col-4 d-flex justify-content-end">
+                                        <img src="assets/images/edit.png" alt="" class="pe-2 ">
+                                        <img src="assets/images/delete_icon.png" alt="" class="pe-2 ">
+                                    </div>
+                                </div>   
+                            </div>
+                      
+                        
+
+
+                        <div class="col-2">
+                            <input type="radio" name="time" id="t1">
+                            <label for="t1" class="choosetime-bg border">
+                                <span class="text-center">
+                                    <h4 class="choosedate-text">10:30</h4>
+                                    <h4 class="choosedate-text choosedate-text-line-hight">AM</h4>
+                                </span>
+                            </label>   
+                        </div>
+
+                        <div class="col-2">
+                            <input type="radio" name="time" id="t2">
+                            <label for="t2" class="choosetime-bg border">
+                                <span class="text-center">
+                                    <h4 class="choosedate-text">10:30</h4>
+                                    <h4 class="choosedate-text choosedate-text-line-hight">AM</h4>
+                                </span>
+                            </label>       
+                        </div>
+
+                        <div class="col-2">
+                            <input type="radio" name="time" id="t3">
+                            <label for="t3" class="choosetime-bg border">
+                                <span class="text-center">
+                                    <h4 class="choosedate-text">10:30</h4>
+                                    <h4 class="choosedate-text choosedate-text-line-hight">AM</h4>
+                                </span>
+                            </label>       
+                        </div>
+
+                        <div class="col-2">
+                            <input type="radio" name="time" id="t4">
+                            <label for="t4" class="choosetime-bg border">
+                                <span class="text-center">
+                                    <h4 class="choosedate-text">10:30</h4>
+                                    <h4 class="choosedate-text choosedate-text-line-hight">AM</h4>
+                                </span>
+                            </label>       
+                        </div>
+
+                        <div class="col-2">    
+                            <input type="radio" name="time" id="t5">
+                            <label for="t5" class="choosetime-bg border">
+                                <span class="text-center">
+                                    <h4 class="choosedate-text">10:30</h4>
+                                    <h4 class="choosedate-text choosedate-text-line-hight">AM</h4>
+                                </span>
+                            </label>                               
+                        </div>
+
+                        <div class="col-2">
+                            <input type="radio" name="time" id="t6">
+                            <label for="t6" class="choosetime-bg border">
+                                <span class="text-center">
+                                    <h4 class="choosedate-text">10:30</h4>
+                                    <h4 class="choosedate-text choosedate-text-line-hight">AM</h4>
+                                </span>
+                            </label>   
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="row">
+                        
+                        <div class="morning "> 
+                            <div class="row">
+                                <div class=" col-8 d-flex">
+                                    <img src="assets/images/morning.png" alt="" class="img-height d-flex align-self-center me-2">
+                                    <h3 class="align-self-center mb-0 me-2"> morning</h3>
+                                    <button class=" btn btng   me-2" style="border-radius: 16px;">slots</button>
+                                    <button  class="btnb" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                                        Add
+                                    </button>
+
+                                </div>
+                                
+                                <div class="col-4 d-flex justify-content-end">
+                                    <img src="assets/images/edit.png" alt="" class="pe-2 ">
+                                    <img src="assets/images/delete_icon.png" alt="" class="pe-2 ">
+                                </div>
+                            </div>   
+                        </div>
+                  
+                    
+
+
+                    <div class="col-2">
+                        <input type="radio" name="time1" id="t7">
+                        <label for="t7" class="choosetime-bg border">
+                            <span class="text-center">
+                                <h4 class="choosedate-text">10:30</h4>
+                                <h4 class="choosedate-text choosedate-text-line-hight">AM</h4>
+                            </span>
+                        </label>   
+                    </div>
+
+                    <div class="col-2">
+                        <input type="radio" name="time1" id="t8">
+                        <label for="t8" class="choosetime-bg border">
+                            <span class="text-center">
+                                <h4 class="choosedate-text">10:30</h4>
+                                <h4 class="choosedate-text choosedate-text-line-hight">AM</h4>
+                            </span>
+                        </label>       
+                    </div>
+
+                    <div class="col-2">
+                        <input type="radio" name="time1" id="t9">
+                        <label for="t9" class="choosetime-bg border">
+                            <span class="text-center">
+                                <h4 class="choosedate-text">10:30</h4>
+                                <h4 class="choosedate-text choosedate-text-line-hight">AM</h4>
+                            </span>
+                        </label>       
+                    </div>
+
+                    <div class="col-2">
+                        <input type="radio" name="time1" id="t10">
+                        <label for="t10" class="choosetime-bg border">
+                            <span class="text-center">
+                                <h4 class="choosedate-text">10:30</h4>
+                                <h4 class="choosedate-text choosedate-text-line-hight">AM</h4>
+                            </span>
+                        </label>       
+                    </div>
+
+                    <div class="col-2">    
+                        <input type="radio" name="time1" id="t11">
+                        <label for="t11" class="choosetime-bg border">
+                            <span class="text-center">
+                                <h4 class="choosedate-text">10:30</h4>
+                                <h4 class="choosedate-text choosedate-text-line-hight">AM</h4>
+                            </span>
+                        </label>                               
+                    </div>
+
+                    <div class="col-2">
+                        <input type="radio" name="time1" id="t12">
+                        <label for="t12" class="choosetime-bg border">
+                            <span class="text-center">
+                                <h4 class="choosedate-text">10:30</h4>
+                                <h4 class="choosedate-text choosedate-text-line-hight">AM</h4>
+                            </span>
+                        </label>   
+                    </div>
+                </div>
+                </div>
+            </div>
+            <div class="row mt-3">
+                <div class="col-6">
+                    <div class="row">
+                        
+                            <div class="morning "> 
+                                <div class="row">
+                                    <div class=" col-8 d-flex">
+                                        <img src="assets/images/afternoon.png" alt="" class="img-height d-flex align-self-center me-2">
+                                        <h3 class="align-self-center mb-0 me-2"> Afternoon</h3>
+                                        <button class=" btn btng   me-2" style="border-radius: 16px;">slots</button>
+                                        <button  class="btnb" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                                            Add
+                                        </button>
+    
+                                    </div>
+                                    
+                                    <div class="col-4 d-flex justify-content-end">
+                                        <img src="assets/images/edit.png" alt="" class="pe-2 ">
+                                        <img src="assets/images/delete_icon.png" alt="" class="pe-2 ">
+                                    </div>
+                                </div>   
+                            </div>
+                      
+                        
+
+
+                        <div class="col-2">
+                            <input type="radio" name="time2" id="t13">
+                            <label for="t13" class="choosetime-bg border">
+                                <span class="text-center">
+                                    <h4 class="choosedate-text">10:30</h4>
+                                    <h4 class="choosedate-text choosedate-text-line-hight">AM</h4>
+                                </span>
+                            </label>   
+                        </div>
+
+                        <div class="col-2">
+                            <input type="radio" name="time2" id="t14">
+                            <label for="t14" class="choosetime-bg border">
+                                <span class="text-center">
+                                    <h4 class="choosedate-text">10:30</h4>
+                                    <h4 class="choosedate-text choosedate-text-line-hight">AM</h4>
+                                </span>
+                            </label>       
+                        </div>
+
+                        <div class="col-2">
+                            <input type="radio" name="time2" id="t15">
+                            <label for="t15" class="choosetime-bg border">
+                                <span class="text-center">
+                                    <h4 class="choosedate-text">10:30</h4>
+                                    <h4 class="choosedate-text choosedate-text-line-hight">AM</h4>
+                                </span>
+                            </label>       
+                        </div>
+
+                        <div class="col-2">
+                            <input type="radio" name="time2" id="t16">
+                            <label for="t16" class="choosetime-bg border">
+                                <span class="text-center">
+                                    <h4 class="choosedate-text">10:30</h4>
+                                    <h4 class="choosedate-text choosedate-text-line-hight">AM</h4>
+                                </span>
+                            </label>       
+                        </div>
+
+                        <div class="col-2">    
+                            <input type="radio" name="time2" id="t17">
+                            <label for="t17" class="choosetime-bg border">
+                                <span class="text-center">
+                                    <h4 class="choosedate-text">10:30</h4>
+                                    <h4 class="choosedate-text choosedate-text-line-hight">AM</h4>
+                                </span>
+                            </label>                               
+                        </div>
+
+                        <div class="col-2">
+                            <input type="radio" name="time2" id="t18">
+                            <label for="t18" class="choosetime-bg border">
+                                <span class="text-center">
+                                    <h4 class="choosedate-text">10:30</h4>
+                                    <h4 class="choosedate-text choosedate-text-line-hight">AM</h4>
+                                </span>
+                            </label>   
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="row">
+                        
+                        <div class="morning "> 
+                            <div class="row">
+                                <div class=" col-8 d-flex">
+                                    <img src="assets/images/night.png" alt="" class="img-height d-flex align-self-center me-2">
+                                    <h3 class="align-self-center mb-0 me-2"> night</h3>
+                                    <button class=" btn btng   me-2" style="border-radius: 16px;">slots</button>
+                                    <button  class="btnb" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                                        Add
+                                    </button>
+
+                                </div>
+                                
+                                <div class="col-4 d-flex justify-content-end">
+                                    <img src="assets/images/edit.png" alt="" class="pe-2 ">
+                                    <img src="assets/images/delete_icon.png" alt="" class="pe-2 ">
+                                </div>
+                            </div>   
+                        </div>
+                  
+                    
+
+
+                    <div class="col-2">
+                        <input type="radio" name="time3" id="t19">
+                        <label for="t19" class="choosetime-bg border">
+                            <span class="text-center">
+                                <h4 class="choosedate-text">10:30</h4>
+                                <h4 class="choosedate-text choosedate-text-line-hight">AM</h4>
+                            </span>
+                        </label>   
+                    </div>
+
+                    <div class="col-2">
+                        <input type="radio" name="time3" id="t20">
+                        <label for="t20" class="choosetime-bg border">
+                            <span class="text-center">
+                                <h4 class="choosedate-text">10:30</h4>
+                                <h4 class="choosedate-text choosedate-text-line-hight">AM</h4>
+                            </span>
+                        </label>       
+                    </div>
+
+                    <div class="col-2">
+                        <input type="radio" name="time3" id="t21">
+                        <label for="t21" class="choosetime-bg border">
+                            <span class="text-center">
+                                <h4 class="choosedate-text">10:30</h4>
+                                <h4 class="choosedate-text choosedate-text-line-hight">AM</h4>
+                            </span>
+                        </label>       
+                    </div>
+
+                    <div class="col-2">
+                        <input type="radio" name="time3" id="t222">
+                        <label for="t222" class="choosetime-bg border">
+                            <span class="text-center">
+                                <h4 class="choosedate-text">10:30</h4>
+                                <h4 class="choosedate-text choosedate-text-line-hight">AM</h4>
+                            </span>
+                        </label>       
+                    </div>
+
+                    <div class="col-2">    
+                        <input type="radio" name="time3" id="t23">
+                        <label for="t23" class="choosetime-bg border">
+                            <span class="text-center">
+                                <h4 class="choosedate-text">10:30</h4>
+                                <h4 class="choosedate-text choosedate-text-line-hight">AM</h4>
+                            </span>
+                        </label>                               
+                    </div>
+
+                    <div class="col-2">
+                        <input type="radio" name="time3" id="t24">
+                        <label for="t24" class="choosetime-bg border">
+                            <span class="text-center">
+                                <h4 class="choosedate-text">10:30</h4>
+                                <h4 class="choosedate-text choosedate-text-line-hight">AM</h4>
+                            </span>
+                        </label>   
+                    </div>
+                </div>
+                </div>
+            </div>
+            <!-- Choose suitable time ends  --> 
+            <!-- Manage Availability ends -->
+            </div>
+            <button class="btn  mx-auto text-center text-white mt-5 mb-5"
+            style="width: 200px; background-color: #1E3F6C; border-radius: 20px;">Save & Submit</button>
+            
+            
+      
+        
+        
+        <!-- Modal -->
+        <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+            aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    
+                    <div class="modal-body">
+                        <div class="row text-center justify-content-center"> 
+                            <img src="assets/images/alarm_clock.png" alt=""  class="alarm-clock">
+                            <h4 class="modal-title" id="staticBackdropLabel" style="color: #1E3F6C ;font-weight: bold;">Set the time slots</h4>
+                        </div>
+                        <div class="row">
+                            <div class="col-6 d-flex">
+                                <mat-label class=" date me-2"> from</mat-label>
+                                <mat-form-field floatLabel="never" class="services">
+                                    <mat-label>Choose a date</mat-label>
+                                    <input matInput [matDatepicker]="picker">
+                                    <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+                                    <mat-datepicker #picker></mat-datepicker>
+                                </mat-form-field>
+                            </div>
+                            <div class="col-6 d-flex">
+                                <mat-label class=" date me-2"> to</mat-label>
+                                <mat-form-field floatLabel="never" class="services">
+                                    <mat-label>Choose a date</mat-label>
+                                    <input matInput [matDatepicker]="picker">
+                                    <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+                                    <mat-datepicker #picker></mat-datepicker>
+                                </mat-form-field>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <button type="button" class="btn mt-3  mx-auto text-center text-white " data-bs-dismiss="modal"  style="width: 200px; background-color: #1E3F6C; border-radius: 20px;" >Set</button>
+                        </div>
+                       
+                    </div>
+                </div>
+            </div>
+        </div>
+            
+        </div>
+    </div>
+</div>
+

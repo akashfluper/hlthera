@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="62" height="62" viewBox="0 0 62 62">
+  <g id="total_video" transform="translate(-768 -192)">
+    <circle id="_1" data-name="1" cx="31" cy="31" r="31" transform="translate(768 192)" fill="#f2f1f6"/>
+    <g id="video-camera" transform="translate(781.37 115.501)">
+      <g id="Group_58524" data-name="Group 58524" transform="translate(0 96.512)">
+        <g id="Group_58523" data-name="Group 58523">
+          <path id="Path_104995" data-name="Path 104995" d="M20.67,96.512H4a4.01,4.01,0,0,0-4,4v13.474a4.01,4.01,0,0,0,4,4H20.67a4.01,4.01,0,0,0,4-4V100.51A3.984,3.984,0,0,0,20.67,96.512Z" transform="translate(0 -96.512)" fill="#2b78c8"/>
+        </g>
+      </g>
+      <g id="Group_58526" data-name="Group 58526" transform="translate(25.955 98.647)">
+        <g id="Group_58525" data-name="Group 58525" transform="translate(0 0)">
+          <path id="Path_104996" data-name="Path 104996" d="M348.148,123.912a1.914,1.914,0,0,0-.653.28l-5.991,3.6v9.276l6.03,3.6a2.236,2.236,0,0,0,3.149-.88,2.52,2.52,0,0,0,.307-1.2V126.231A2.336,2.336,0,0,0,348.148,123.912Z" transform="translate(-341.504 -123.847)" fill="#2b78c8"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

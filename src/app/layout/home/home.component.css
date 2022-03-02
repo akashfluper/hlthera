@@ -1,0 +1,408 @@
+*{
+    text-transform: capitalize;
+    font-weight: 400;
+    list-style-type: none;
+}
+.btn{
+    padding: 3px 25px;
+    background-color: #2B78C8;
+    color: #FFFFFF;
+    border-radius: 25px;
+    font-size: 14px;
+}
+.main-div{
+    background-color: #FFFFFF;
+}
+.banner{
+    background-image: url("/assets/images/header_img.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+.inner-item{
+    position: absolute;
+    top: 28%;
+}
+.inner-item-text{
+    line-height: 2;
+
+}
+.inner-item-text-sub-heading{
+    font-size: 47px;
+}
+
+.inner-item-text-para{
+    font-size: 14px;
+    width: 79%;
+}
+/* card category css starts */
+.explore-card-category{
+background-color: #F2F1F6;
+border: none;
+transition: 0.3s;
+width: 100%;
+border-radius: 20px;
+padding-top: 20px;
+padding-left: 10px;
+}
+.explore-card-category:hover {
+    cursor: pointer;
+    background-color: #3F77C7;
+    box-shadow: 0 4px 8px 0 #3F77C7;
+    transition: 0.3s;
+}
+.explore-card-category:hover  p{
+    color: #FFFFFF!important;
+}
+.explore-card-category:hover  h6{
+    color: #FFFFFF!important;
+}
+.explore-card-category-card-img{
+    width: 61px;
+    height: 60px;
+  }
+  .explore-card-category-card-heading{
+    color: #1E3F6C;
+    font-size: 19px;
+  }
+  
+  .explore-card-category-card-text{
+    font-size: 14px;
+    color: #6D6D6D;
+  }
+
+  .explore-time-category{
+    background-color: #1E3F6C; 
+    padding: 20px 30px;
+  }
+  .inner-explore-time-category{
+    background-color: #1E3F6C; 
+    color: white; 
+    border: 2px solid white;
+    padding-bottom: 40px;
+    padding-top: 30px;
+ 
+  }
+  .time-heading{
+    font-size: 24px;
+  }
+  .explore-time-sub-hading{
+    color: #FFFFFF;
+    font-size: 34px;
+  }
+  .inner-explore-time-category-para{
+      font-size: 14px;
+      margin-bottom: 10px;
+      
+  }
+
+  .explore-time-category-table{
+      font-size: 14px;
+    
+      
+  }
+
+ 
+  .time-schdule-time{ 
+    color: #2B78C8;
+   
+  }
+  .time-schdule-day{
+    font-size: 14px;
+    padding-right:30px;
+
+}
+
+
+/* card category css ends */
+
+/* total health care strats */
+.total-health-care-img{
+    background-size: contain;
+    width: 100%;
+    background-position: center;
+}
+.total-health-care-text{
+   
+}
+
+
+.total-health-care-para{
+    font-size: 15px;
+    color: #6D6D6D;
+    line-height: 2.2;
+}
+/* total health care ends */
+
+/* online-consultation starts */
+.online-consultation-bg-img{
+    background-image: url("/assets/images/get_online_consultation.png");
+    width: 100%;
+    height: 507px;
+    background-repeat: no-repeat ;
+    background-position: center;
+    background-size: contain;
+   
+}
+.online-consultaion-text{
+    width: 45%;  
+}
+
+.Online-Consultation-heading{
+    font-size: 35px;
+    color: #1E3F6C;
+}
+.Online-Consultation-para{
+    font-size: 14px;
+    color: #6D6D6D;
+    line-height: 2.2;
+}
+.help{
+    font-size: 20px;
+    color: #1E3F6C;
+}
+.help-no{
+    color: #2B78C8;
+}
+/* online-consultation ends */
+.about-us-heading{
+    color: #2B78C8;
+}
+.about-us-sub-heading{
+    font-size: 30px;
+    color: #1E3F6C;
+}
+.about-us-para{
+    font-size: 15px;
+    color: #6D6D6D;
+    line-height: 1.9;
+}
+.about-us-text-table{
+    font-size: 12px;
+    width: 100%;
+    color: #1E3F6C;
+    line-height: 2.3;
+}
+.fa-check{
+    color: #2B78C8;
+}
+.about-us-bg-img{
+    background-size: contain;
+    width: 100%;
+}
+
+.fa-check{
+    color: #2B78C8;
+  }
+  .about-us-card-services{
+    border-radius: 20px;
+    padding:10px;
+    background-color: #1E3F6C;
+    margin-right: 0;
+
+  }
+  .services-card{
+    padding-top: 15px;
+  
+  }
+  .about-card-services-font{
+    font-weight: bolder;
+     color: #FFFFFF;
+     opacity: 0.3;
+     position: absolute;
+     right: 10px;
+     bottom: -13px;
+     font-size: 55px;
+     margin: 0;
+  }
+  
+  
+  
+  .about-card-services-title{
+    color: #FFFFFF;
+  }
+  .about-card-services-boder{
+    width: 30px;
+    color: #2B78C8;
+    opacity: 1;
+    height: 3px;
+  }
+  .about-us-card-services:hover hr{
+      color: #FFFFFF !important;
+  }
+  .about-card-services-text{
+    font-size: 12px;
+    color: #FFFFFF;
+  }
+ .about-us-card-services:hover {
+    cursor: pointer;
+    background-color: #3F77C7;
+    box-shadow: 0 4px 8px 0 #3F77C7;
+    transition: 0.3s;
+}
+
+.about-list{
+    font-size: 15px;
+    padding-left: 0px;
+    line-height: 2;
+}
+.about-list .text{
+    margin-left: 15px;
+}
+
+.aboutline{
+    margin-left: 20px;
+    width:70px;
+    height: 30px;
+    position: relative;
+}
+.aboutline::after{
+        content: '';
+        position: absolute;
+        margin: auto;
+        height: 2px;
+        background: #2B78C8;
+        top: 40%;
+        width: 70%;
+        
+}
+
+
+/* testimonials css starts */
+.testimonials-bg-color{
+background-color: #F2F1F6;
+}
+
+.testimonials-para{
+    font-size: 14px;
+    color: #6D6D6D;
+}
+
+.testimonials-doc-card{
+  background-image:linear-gradient(#3E76C4,#0F2239);
+  border-radius: 22px;
+  border: none;
+}
+.testimonials-doc-card-body{
+    padding-bottom: 0;
+}
+.estimonials-doc-card-font{
+    font-weight: bolder;
+    color: #FFFFFF;
+    opacity: 0.2;
+    position: absolute;
+    font-size: 100px;
+    left: 2px;
+    top: -3px;
+}
+
+.testimonials-doc-card-title{
+    color: #FFFFFF;
+    font-size: 18px;
+
+}
+
+.testimonials-doc-card-subtitle{
+    color: #FFFFFF;
+    font-size: 12px;
+
+}
+.testimonials-doc-card-para{
+    font-size: 12px;
+    margin-bottom: 0;
+    color: #FFFFFF;
+}
+.testimonials-doc-card-img{
+    border-bottom-right-radius: 22px;
+    width:120px; 
+    height:120px;
+}
+
+
+
+
+
+/* testimonials css ends */
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:768px){
+    .total-health-care-text{
+        width: 50%;
+        padding: 0 5px;
+        margin: 0;
+        line-height: 1;
+    }
+    .about-us{
+        width: 100%;
+       
+    }
+   
+    .testimonials-content{
+        width: 100%;
+    }
+   
+
+    
+
+    .online-consultaion-text{
+        width: 60%;
+    }
+    .online-consultaion-text{
+        padding: 0;
+        margin: 0;
+        
+    }
+    .about-us-para{
+        padding: 0;
+        margin: 0 !important;
+    }
+}
+
+@media(max-width:425px){
+    .online-consultation-bg-img{
+        height: 100% !important;
+        background-size: cover !important;
+        background-repeat: no-repeat !important;
+        width: 100% !important;
+        background-position: right;
+        padding: 20px 10px;
+    }
+    .Online-Consultation-heading{
+        font-size: 30px;
+    }
+    .help{
+        font-size: 16px;
+    }
+
+
+    .explore-category{
+        width: 100%;
+    }
+    .total-health-care-text{
+        width: 100%;
+        padding: 0 5px;
+        margin: 0;
+        line-height: 1;
+    }
+    .online-consultaion{
+        width: 100%;
+    }
+    .online-consultaion-text{
+        width: 100%;
+        pad: 0 5px;
+    }
+    
+}

@@ -1,0 +1,124 @@
+
+  
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+  }
+
+  
+  .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span{
+    background: #2B78C8 !important ;
+  }
+  
+  .owl-dots{
+    position: absolute !important;
+    top: 90% !important;
+    left: 50% !important;
+  }
+
+  .layout-content{
+    margin-left: 250px;
+  }
+ 
+  .line{
+    width:20px;
+    height: 17px;
+    position: relative;
+}
+.line::before{
+    content: '';
+    position: absolute;
+    margin: auto;
+    height: 2px;
+    background: #2B78C8;
+    top: 50%;
+    width: 70%;
+}
+span{
+  color:#2B78C8;
+}
+.card{
+  border: none;
+  box-shadow: 0px 0px 10px  #2C28281C;
+  border-radius: 10px;
+}
+.dashboard-header-search{
+  width: 51vw;
+  border-radius: 50px;
+  border: none;
+  box-shadow: 0px 0px 10px  #2C28281C;
+}
+.layout-content{
+  background: #fff;
+  border-top-left-radius: 50PX;
+  border-bottom-left-radius: 50PX;
+  padding: 20px;
+  }
+  
+
+  .mat-form-field-flex{
+    border-radius: 25px;
+    box-shadow: 0px 0px 10px  #2C28281C;
+    background-color: #A4B8CD;
+    
+
+  }
+  
+  .mat-form-field-ripple {
+    position: absolute;
+    left: 0;
+    width: 0;
+    transform-origin:0;
+    transform: scaleX(0);
+    opacity: 0;
+    transition:none;
+}
+  .mat-form-field-underline{
+    height: 0 !important;
+  }
+  .layout-content {
+    height: 100vh;
+    overflow-y: scroll;
+  }
+  .layout-content::-webkit-scrollbar {
+    display: none;
+}
+.mat-form-field-flex{
+  width: 80%;
+}
+.mat-form-field-infix{
+  border-top: 0px;
+  padding: 0 10px;
+}
+
+.mat-form-field.mat-focused
+.mat-form-field-ripple{
+  display:none;
+}
+/* .mat-form-field{
+  text-align: center !important;
+  
+} */
+/* .service-label{
+  text-align: center !important;
+} */
+.mat-select-arrow {
+  border-top: 5px solid;
+  margin: -5px 10px !important;
+}
+.mat-form-field-wrapper
+.mat-form-field-appearance-legacy {
+  padding-bottom:0 !important ;
+}
+
+
+
+
+
+
+
+
+                

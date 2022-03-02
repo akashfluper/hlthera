@@ -1,0 +1,122 @@
+*{
+    line-height: 2;
+    text-decoration: none;
+}
+.btn{
+    padding: 3px 25px;
+    border-radius: 25px;
+    font-size: 14px;
+    background-color: #2B78C8;
+}
+.footer-bg-color{
+    background-color: #1E3F6C;
+    
+}
+.text-uppercase{
+    color: #2B78C8;
+    font-size: 12px;
+
+}
+.min{
+    padding-top: 100px;
+}
+.text{
+    color: #FFFFFF;
+}
+.copy{
+    color: #FFFFFF;
+    justify-content: center;
+}
+.footer-img{
+    z-index: 11;
+}
+.max{
+    margin-bottom: -65px;
+}
+.footer-head{
+    font-size: 24px;
+    line-height: 35px;
+    padding: 115px 0
+}
+
+.btnsgin{
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    color: #2B78C8;
+    padding: 0 25px;
+}
+.footer-head-txt{
+    color: #FFFFFF;
+}
+.footer-header{
+    background-image: url("/assets/images/footer_logo.png");
+    height: 60px;
+    width: 150px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 55px !important;
+}
+.apple{
+    background-image: url("/assets/images/apple1.png");
+    height: 102px;
+    width: 102px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+
+}
+.play{
+    background-image: url("/assets/images/play.png");
+    height: 102px;
+    width: 102px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: -31px;
+    
+}
+
+.heading{
+    font-size: 34px;
+    color: #1E3F6C;
+}
+p{
+    font-size: 12px;
+}
+ul{
+    font-size: 12px;
+}
+
+.img{
+    position: relative;
+    padding: 0px 30px;
+
+  }
+  .img:before{
+    position: absolute;
+    content: '';
+    top:30px;
+    left: 1px;
+    border: 2px dashed skyblue;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    border: 15%;
+    border-top-left-radius: 15%; 
+    border-bottom-right-radius: 15%;
+  }
+  .footer-img .img img{
+    width: 100%;
+    /* height: 100vh; */
+    border-top-left-radius: 15%; 
+    border-bottom-right-radius: 15%;
+  /* object-fit: contain;  */
+  }
+
+  .company
+  {
+      
+      width: 80px;
+      margin: 0px auto;
+  }
+
+ 

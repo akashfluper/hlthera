@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="36" height="22" viewBox="0 0 36 22">
+  <g id="toggle" transform="translate(0.272 0.365)">
+    <rect id="Rectangle" width="36" height="22" rx="11" transform="translate(-0.272 -0.365)" fill="#2b78c8"/>
+    <circle id="Oval" cx="9" cy="9" r="9" transform="translate(16.728 1.635)" fill="#fff"/>
+  </g>
+</svg>
