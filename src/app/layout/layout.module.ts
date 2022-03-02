@@ -14,6 +14,7 @@ import { MatNativeDateModule, MatOptionModule } from '@angular/material/core';
 
 import { MatInputModule } from '@angular/material/input';
 import {MatRadioModule} from '@angular/material/radio';
+import {NgxMaterialTimepickerModule} from 'ngx-material-timepicker';
 
 
 
@@ -31,6 +32,8 @@ import {MatRadioModule} from '@angular/material/radio';
     MatOptionModule,
     MatInputModule,
     MatRadioModule,
+    NgxMaterialTimepickerModule
+   
     
     
 

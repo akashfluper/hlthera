@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import {MatDialog} from '@angular/material/dialog';
 import { OwlOptions } from 'ngx-owl-carousel-o';
 
 interface service {

@@ -5,6 +5,7 @@ import { DashbordComponent } from './dashbord/dashbord.component';
 import { ManageavailabilityComponent } from './manageavailability/manageavailability.component';
 
 
+
 const routes: Routes = [
   {path:'', redirectTo:'home', pathMatch:'full' },
   {path:'home',component:HomeComponent},
