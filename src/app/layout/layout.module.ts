@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import {MatSelectModule} from '@angular/material/select';
+import  {FormsModule} from '@angular/forms';
 
 import { LayoutRoutingModule } from './layout-routing.module';
 import { HomeComponent } from './home/home.component';
@@ -32,7 +33,8 @@ import {NgxMaterialTimepickerModule} from 'ngx-material-timepicker';
     MatOptionModule,
     MatInputModule,
     MatRadioModule,
-    NgxMaterialTimepickerModule
+    NgxMaterialTimepickerModule,
+    FormsModule
    
     
     

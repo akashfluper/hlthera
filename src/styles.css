@@ -8,23 +8,7 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
     border-top: 5px solid;
     margin: 0px 10px !important;
 }
-/* .mat-form-field-appearance-legacy .mat-form-field-prefix .mat-datepicker-toggle-default-icon, .mat-form-field-appearance-legacy .mat-form-field-suffix .mat-datepicker-toggle-default-icon {
-    right: 220px;
-    top: 5px;
-    width: 1em;
-    position: absolute;
-    
-} */
-/* .mat-form-field-infix{
-    position: relative !important;
-}
-.mat-form-field-prefix .mat-icon-button, .mat-form-field-suffix .mat-icon-button {
-    height: 1.5em;
-    width: 1.5em;
-    position: absolute;
-    left: -241px;
-    top: -16px;
-}*/
+
 .mat-form-field-infix {    
 border-top: 0 solid transparent;
 width: 160px !important;
@@ -63,3 +47,11 @@ width: 160px !important;
     left: 50%;
     transform: translate(-50%, -50%) !important;
   }
+
+
+
+
+
+  /* latest css for date picker  starts*/
+  /*             */
+  /* latest css for date picker ends*/
