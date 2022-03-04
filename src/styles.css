@@ -1,57 +1,59 @@
 
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
-
-
-.mat-select-arrow {
-
-    border-top: 5px solid;
-    margin: 0px 10px !important;
+.layout-content {
+    height: 100vh;
+    overflow-y: scroll;
+  }
+  .layout-content::-webkit-scrollbar {
+    display: none;
 }
-
-.mat-form-field-infix {    
-border-top: 0 solid transparent;
-width: 160px !important;
-} 
-
 
 .mat-form-field-flex{
     position: relative !important;
 }
 .mat-form-field-suffix{
     position: absolute !important;
-    height: 1.5em;
-    width: 1.5em;
+  
     left: 10px;
     top: 8px;
 }
 
-.mat-form-field-appearance-legacy .mat-form-field-infix{
+.mat-form-field-underline{
+    height: 0 !important;
+}
+.mat-form-field-subscript-wrapper{
+    margin-top: 0 !important;
+}
+.mat-form-field-ripple{
+    height: 0 !important;
+}
+.mat-form-field-underline{
+    height: 0 !important;
+}
+.mat-form-field-flex{
+    border-radius: 21px !important;
+    background: aliceblue !important;
+}
+.mat-form-field-infix {
+    border-top: 0 !important;
+    width: 160px !important;
+}
+.mat-form-field-wrapper{
+    padding-bottom: 0 !important;
+
+}
+ .mat-form-field-infix{
     padding: 12px !important;
   }
- 
-  
   .mat-form-field-label{
     padding: 6px !important;
   }
   .date{
-    font-size: 17px !important;
-    padding: 9px 0 !important;
-}
-.mat-form-field-wrapper{
-    padding-bottom:0 !important ;
-}
-.modal-dialog {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%) !important;
+      padding: 10px 0;
+      color: #8494AD;
   }
 
-
-
-
-
-  /* latest css for date picker  starts*/
-  /*             */
-  /* latest css for date picker ends*/
+  .toggle-nav{
+      margin-left: 80px;
+  }

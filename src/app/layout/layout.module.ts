@@ -15,8 +15,8 @@ import { MatNativeDateModule, MatOptionModule } from '@angular/material/core';
 
 import { MatInputModule } from '@angular/material/input';
 import {MatRadioModule} from '@angular/material/radio';
+import {MatSlideToggleModule} from '@angular/material/slide-toggle';
 import {NgxMaterialTimepickerModule} from 'ngx-material-timepicker';
-
 
 
 @NgModule({
@@ -33,8 +33,10 @@ import {NgxMaterialTimepickerModule} from 'ngx-material-timepicker';
     MatOptionModule,
     MatInputModule,
     MatRadioModule,
-    NgxMaterialTimepickerModule,
-    FormsModule
+    FormsModule,
+    MatSlideToggleModule,
+    NgxMaterialTimepickerModule 
+    
    
     
     
